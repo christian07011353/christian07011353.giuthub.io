@@ -1,0 +1,60 @@
+
+<!-- saved from url=(0035)http://localhost/PROYECTO/index.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>Conexión exitosa a la base de datosEsperando el envío del formulario...
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Reserva de Hotel</title>
+    <link rel="stylesheet" href="./Formulario de Reserva de Hotel_files/feo.css">
+
+
+
+    <h2>Formulario de Reserva de Hotel</h2>
+    <form action="http://localhost/PROYECTO/index.php" method="post">
+        <label for="nombre_apellido">Nombre y Apellido:</label>
+        <input type="text" id="nombre_apellido" name="nombre_apellido" required=""><br><br>
+
+        <label for="fecha_entrada">Fecha de Entrada:</label>
+        <input type="date" id="fecha_entrada" name="fecha_entrada" required=""><br><br>
+
+        <label for="fecha_salida">Fecha de Salida:</label>
+        <input type="date" id="fecha_salida" name="fecha_salida" required=""><br><br>
+
+        <label for="personas">Número de Personas:</label>
+        <input type="number" id="personas" name="personas" required=""><br><br>
+
+        <label for="tipo_habitacion">Tipo de Habitación:</label>
+        <select id="tipo_habitacion" name="tipo_habitacion" required="">
+            <option value="individual">Individual</option>
+            <option value="doble">Doble</option>
+            <option value="suite">Suite</option>
+            <option value="economica">Economica</option>
+            <option value="familiar">Familiar</option>
+            <option value="para dos">Para dos</option>
+        </select><br><br>
+
+        <label for="metodo_pago">Método de Pago:</label>
+        <select id="metodo_pago" name="metodo_pago" required="">
+            <option value="tarjeta">Tarjeta de Crédito</option>
+            <option value="efectivo">Efectivo</option>
+            <option value="transferencia">Transferencia Bancaria</option>
+        </select><br><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required=""><br><br>
+
+        <input type="submit" value="Enviar Reserva">
+        <input type="reset" value="Restablecer">
+    </form>
+
+
+
+
+
+
+
+
+
+</body></html>
